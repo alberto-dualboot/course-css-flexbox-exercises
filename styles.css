@@ -105,7 +105,11 @@ body {
 
 /*  ---- start exercise 5 ----  */
 .tags {
+  list-style: none;
   width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
 }
 
 .tags li {
