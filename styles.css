@@ -66,7 +66,7 @@ body {
   flex-direction:column;
 }
 .card-3 .child-3{
-  margin-top: auto;
+  flex: auto;
 }
 
 /*  ---- end exercise 3 ----  */
@@ -92,14 +92,15 @@ body {
 .card-img {
   border-radius: 10px;
 }
-
+.spots{
+  flex-grow: 1;
+}
 .reserve-btn {
   background-color: #4d7298;
   color: #fff;
   padding: 10px;
   font-size: 16px;
   border-radius: 10px;
-  margin-top: auto;
 }
 /*  ---- end exercise 4 ----  */
 
